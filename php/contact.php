@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 
-$email_from = 'rahullahoti60@gmail.com';
+$email_from = 'asdsafghgf5@gmail.com';
 
 $email_subject = "no reply";
 
@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n".
 "User Message: $message.\n";
 
 
-$to = "asdeshpande2009@gmail.com";
+$to = "asdsafghgf5@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
