@@ -1,8 +1,7 @@
 body{
-  overflow-x: hidden;
+
   font-family: 'Times New Roman', Times, serif;
-  color:#f2f5f8;
-  background-color: violet;
+
 }
 
 /* navigation edit */
@@ -12,8 +11,8 @@ body{
   /* margin-top: 1vw; */
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1 rem;
-  letter-spacing: 1px;
+  font-size:  16pt;
+  letter-spacing: 1pt;
   /* 1rem=16px */
 
 }
@@ -26,31 +25,34 @@ body{
 }
 
 .navbar-brand img{
-  height: 4vw;
+  height: 5pt;width: auto;
 }
 
  #navbar .navbar-nav li{
    padding-right: .3rem;
  }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link{
 color:black;
 padding-top:0.5vw; 
 }
 
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav li:hover{
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav li:hover{
   color:green;
 }
 
 /* end navabr css */
 
 /* landing page : landing1*/
+
+
 .landing1 .home-inner{
   background-image: url(../img/home2.jpg);
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  width:100%;
+  /* width:100%;
+  max-width:100%; */
 
 }
 
@@ -62,7 +64,7 @@ padding-top:0.5vw;
   top:28%;
 }
 .cap1 .caption h1{
-  font-size: 7vh;
+  font-size: 12pt;
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .2rem black; 
@@ -71,7 +73,7 @@ padding-top:0.5vw;
 }
 
 .cap1 .caption h2{
-  font-size: 5.4vh;
+  font-size: 12pt;
   font-weight: 500;
   letter-spacing: .1rem;
   text-shadow: .1rem .1rem .2rem black; 
@@ -80,7 +82,7 @@ padding-top:0.5vw;
 
 }
 .cap1 .caption h3{
-  font-size: 4vh;
+  font-size:12pt;
   font-weight: 500;
   letter-spacing: .05rem;
   text-shadow: .05rem .05rem .1rem black; 
@@ -377,9 +379,7 @@ h2{
     margin-bottom: -1rem;
    }
   
-   Medium devices (tablets, 768px and up)
-   @media (max-width: 768px) { ... }
-   
+
   
 /* Container holding the image and the text 
   // No media query for `xs` since this is the default in Bootstrap
