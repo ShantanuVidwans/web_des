@@ -3,16 +3,15 @@
 .container-fluid{
     padding-right: 0px; padding-left: 0px;
 }
-
 .navbar{
-    /* margin-top: 1vw; */
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size:  16pt;
-    letter-spacing: 1pt;
-    /* 1rem=16px */
-  
-  }
+  /* margin-top: 1vw; */
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size:  12pt;
+  letter-spacing: 1pt;
+  /* 1rem=16px */
+
+}
   #navbg{
     -webkit-background-color: rgba(0, 0, 0, 0.5);
   }
