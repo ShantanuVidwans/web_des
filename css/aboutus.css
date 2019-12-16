@@ -1,18 +1,14 @@
 .one{
 	background-image: url(img/IMG_1216.JPG);
 	background-size: cover;
-	/*background-repeat: no-repeat;
-	background-position: center center;
-	height: 100vh;
-	width: 100%;
-	position: relative*/
 	height: 100vh;
 	background-position: center center;
 	position: relative;
 }
 body{
 	margin: 0;
-	background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
 
 }
 
@@ -75,13 +71,13 @@ font-family: none;
      padding-right: .3rem;
    }
   
-  .navbar-light .navbar-nav .nav-link{
-  color:black;
+  .navbar-dark .navbar-nav .nav-link{
+
   padding-top:0.5vw; 
   }
   
-  .navbar-light .navbar-nav .nav-link.active,
-  .navbar-light .navbar-nav li:hover{
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav li:hover{
     color:green;
   }
   
@@ -89,7 +85,6 @@ font-family: none;
 
   #footer p{
     color:#999;
-    line-height: 25px;
   }
   
   h2,h3{

@@ -25,13 +25,13 @@
 	 padding-right: .3rem;
    }
   
-  .navbar-light .navbar-nav .nav-link{
-  color:black;
+  .navbar-dark .navbar-nav .nav-link{
+
   padding-top:0.5vw; 
   }
   
-  .navbar-light .navbar-nav .nav-link.active,
-  .navbar-light .navbar-nav li:hover{
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav li:hover{
 	color:green;
   }
   
@@ -40,7 +40,7 @@
 /* footer start */
 #footer p{
 	color:#999;
-	line-height: 25px;
+
   }
   
   h2,h3{
@@ -87,8 +87,7 @@
 	  border-bottom:  1px solid rgba(255, 255, 255, 0.3);
 	  line-height: 40px;
 	}
-  
-	#footer .segment-one
+
 	
 	
 	 li a{
