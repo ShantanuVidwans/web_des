@@ -179,12 +179,21 @@
 }
 
 .col-12{
-	border-bottom: 2px solid;
+	border-bottom: 1px solid;
+	margin-bottom:2vw;
+	margin-top:2vw;
 }
 
 .top{
 	text-align: center;
 }
-#new .row{
-	background-color: beige;
+
+#heading{
+	margin-top: 3vw;
+	margin-bottom : 3vw;
+	font-size: xx-large;
+}
+
+#heading2{
+	margin-bottom: 2vw;
 }
