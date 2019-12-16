@@ -4,21 +4,15 @@
 }
 
 .navbar{
-    /* margin-top: 1vw; */
     text-transform: uppercase;
     font-weight: 300;
     font-size:  12pt;
     letter-spacing: 1pt;
+    background-image: url("/img/wood.jpg");
     /* 1rem=16px */
   
   }
-  #navbg{
-    -webkit-background-color: rgba(0, 0, 0, 0.5);
-  }
   
-  .bg-dark{
-    background-image: url(img/home2.png);
-  }
   
   .navbar-brand img{
     height: 5pt;width: auto;
