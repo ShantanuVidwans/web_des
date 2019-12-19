@@ -182,3 +182,18 @@
 
 
   /* END FOOTER */
+
+
+  .location{
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+  }
+
+  .carousel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
