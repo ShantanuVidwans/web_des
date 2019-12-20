@@ -47,6 +47,30 @@
 
 
 
+.img_size{
+  width:86px;
+  height : 86px;
+}
+
+.row{
+  margin-bottom: 5vw;
+}
+
+.card{
+  padding-top:20px;
+}
+.col-lg-4{
+  margin-bottom:3vw;
+}
+.card{
+  margin-left:10px;
+  height:100%;
+}
+
+
+
+
+
 
   #footer p{
     color:#999;
