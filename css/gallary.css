@@ -195,5 +195,19 @@
   .carousel {
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 2px #7f7f7f;    
   }
 
+.description{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom:10px ;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.gall{
+   margin-top: 20px;
+  margin-bottom: 20px;
+}
