@@ -174,13 +174,13 @@
 /* footer end */
 
 .name{
-	font-weight: bold;
-	
+	text-align:right;
+	font-size:medium ;
 }
 
-.col-12{
+.texts{
 	border-bottom: 1px solid;
-	margin-bottom:2vw;
+	margin-bottom:5vw;
 	margin-top:2vw;
 }
 
