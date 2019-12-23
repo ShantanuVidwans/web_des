@@ -206,13 +206,13 @@ html {
 /* footer end */
 
 .name{
-	text-align:right;
-	font-size:medium ;
+	font-weight: bold;
+	
 }
 
-.texts{
+.col-12{
 	border-bottom: 1px solid;
-	margin-bottom:5vw;
+	margin-bottom:2vw;
 	margin-top:2vw;
 }
 
