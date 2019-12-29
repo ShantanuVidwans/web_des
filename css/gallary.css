@@ -5,6 +5,7 @@ html {
   overflow-x: hidden;
   box-sizing: border-box;
 
+
 }
 
 *, ::after, ::before{
@@ -19,7 +20,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;         /*remove if !important*/
-  background-color:whitesmoke;
+  background-image: linear-gradient(to right bottom, rgba(141, 192, 118, 0.8),rgba(78, 172, 109, 0.8));
  /* overflow-y: scroll; */
 }
 
