@@ -16,11 +16,23 @@ body{
   font-family: Heebo,sans-serif;
 }
 
-.carousel-item{
-  background-color: cadetblue;
-  height: 50%;
 
+.carousel{
+  background-color: black;
+color: white;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.testimony{
+margin-right: 70px;
+margin-left: 70px;
+letter-spacing: 1px;
+font-family: none;
+}
+
 
 /* stats */
 
@@ -45,17 +57,15 @@ body{
 text-align: center;
 }
 
+
+
+
+
 .stats{
   background-color: #e0f0ea;
 }
-/* .testimony{
-margin-left: 30%;
-margin-right: 30%;
-margin-top: 5%;
-margin-bottom: 5%;
-text-align: center;
-letter-spacing: 1px;
-} */
+
+
 
 .content{
   align-items: center;
