@@ -69,7 +69,9 @@ body {
  }
   /* end navabr css */
 
+.back {
 
+}
 
 
   /* end navabr css */
@@ -213,25 +215,34 @@ body {
 
   .location{
     text-align: center;
-    font-size: 100%;
-    letter-spacing: 2px;
+    font-size: x-large;
+    letter-spacing: 3px;
+    display: block;
     margin-top: 20px;
-    margin-bottom: 30px; 
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px 2px black; 
   }
 
   .carousel {
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px 2px #7f7f7f;    
+    box-shadow: 0px 0px 10px 2px black;    
   }
 
 .description{
+  display: block;
   text-align: center;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: .5px;
   margin-bottom:10px ;
-  font-family: 'Courier New', Courier, monospace;
+  }
 
 
+.back .row{
+      margin-bottom: 3.5rem;
+      margin-top: 2rem;
+      background-color: rgba(255,256,255,0.5);
 }
 
 .gall{
