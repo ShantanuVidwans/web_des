@@ -96,7 +96,24 @@ body {
   height:100%;
 }
 
+/*
+Header CSS
+*/
+.header {
+position: relative;
+text-align: center;
+}
 
+
+.pri-main{
+      display:block;
+      height:10vw;
+      padding-top: 2.5%;
+      font-size :3rem;
+      background-image: linear-gradient(to right bottom, rgba(62, 97, 161, 0.4),rgba(23, 131, 46, 0.8));
+      color:white;
+}
+/*Header CSs end*/
 
 
 
@@ -107,11 +124,8 @@ body {
   padding-bottom:20px;
 }
 
-
-  }
-  
   h2,h3{
-    color:#fff;
+    color:rgb(0, 0, 0);
   }
   h2{
     font-size: 18px;
