@@ -289,3 +289,17 @@ margin-right: 0px!important;
           transform: translateZ(0);
   will-change: transform;
 }
+
+
+
+.mqh2{
+  font-size: 1.5rem;
+       }
+
+
+/*Media Queries*/
+@media  screen and (max-width: 574px) {
+  .mqh2 {
+    font-size:1.2rem;
+  }
+}

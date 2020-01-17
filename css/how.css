@@ -96,10 +96,10 @@ body {
   height:100%;
 }
 
-/*
+/* 
 Header CSS
 */
-.header {
+/* .header {
 position: relative;
 text-align: center;
 }
@@ -112,8 +112,8 @@ text-align: center;
       font-size :3rem;
       background-image: linear-gradient(to right bottom, rgba(62, 97, 161, 0.4),rgba(23, 131, 46, 0.8));
       color:white;
-}
-/*Header CSs end*/
+} */
+/*Header CSs end */
 
 
 
@@ -245,6 +245,9 @@ text-align: center;
        line-height: 45px;
       margin-bottom: 0rem;
      }
+     .mqh2{
+font-size: 1.5rem;
+     }
     
 
 
@@ -260,6 +263,6 @@ text-align: center;
   /*Media Queries*/
   @media  screen and (max-width: 574px) {
     .mqh2 {
-      font-size:0pt;
+      font-size:1.2rem;
     }
   }

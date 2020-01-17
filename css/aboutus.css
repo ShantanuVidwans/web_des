@@ -279,11 +279,15 @@ body {
 
 
   /* END FOOTER */
+  .mqh2{
+    font-size: 1.5rem;
+         }
 
 
-
-
-
-
-
+  /*Media Queries*/
+  @media  screen and (max-width: 574px) {
+    .mqh2 {
+      font-size:1.2rem;
+    }
+  }
 
