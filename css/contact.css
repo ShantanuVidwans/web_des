@@ -66,6 +66,9 @@ body {
        padding-top: .5rem;
        /* text-shadow: .05rem .05rem .1rem rgb(41, 46, 43); */
  }
+ .nav-item{
+  text-align: center;
+}
   /* end navabr css */
 
  /* FOOTER */

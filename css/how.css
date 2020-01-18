@@ -44,7 +44,9 @@ body {
   box-shadow:        .1em .1em .1em grey;
   z-index:999;
 }
-
+.nav-item{
+  text-align: center;
+}
 .bd-navbar {
   background-color:rgba(255, 255, 255);
 }
@@ -95,7 +97,6 @@ body {
   margin-left:10px;
   height:100%;
 }
-
 /* 
 Header CSS
 */
