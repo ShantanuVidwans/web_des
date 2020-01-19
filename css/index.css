@@ -48,7 +48,7 @@ body {
   padding: 8px 16px;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: .05rem;
+  letter-spacing: 1px;
      -webkit-box-shadow: .3em .3em .3em grey;
   -moz-box-shadow:  .3em .3em .3em grey;
   box-shadow:        .3em .3em .3em grey;
@@ -60,20 +60,20 @@ body {
 }
 .navbar-brand {
  position: relative;
-  top:.6rem;
-  left: .8rem;
+  top:9.6px;
+  left: 12.8px;
 }
 .navbar .logo{
-  height: 7.4rem;
-  width: 7.9rem;
+  height: 73.912px;
+  width: 78.4px;
 }
 
  .navbar-nav li{
-      font-size: 1.6rem;
+      font-size: 16px;
           color: black;
           font-weight: bold;
-       padding-right: 1rem;
-       padding-top: .5rem;
+       padding-right: 16px;
+       padding-top: 8px;
        /* text-shadow: .05rem .05rem .1rem rgb(41, 46, 43); */
  }
 
