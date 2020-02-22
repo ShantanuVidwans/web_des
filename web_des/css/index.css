@@ -160,7 +160,7 @@ body {
 .about .pri-main-2 {
   text-transform: uppercase;
   text-align: justify;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   margin: 20px;
   letter-spacing: 2px;
@@ -421,15 +421,6 @@ body {
     /*Media Queries*/
     @media  screen and (max-width: 574px) {
       .mqh2 {
-        font-size:20px;
-      }
-      .about .pri-main-2 {
-        text-transform: uppercase;
-        text-align: justify;
-        font-size: 10px;
-        font-weight: 400;
-        margin: 20px;
-        letter-spacing: 2px;
-        color: rgb(27, 22, 22);
+        font-size:12px;
       }
     }

@@ -1,5 +1,5 @@
 html {
-  font-size: 16px ;
+  font-size: 10px ;
   overflow-x: hidden;
   box-sizing: border-box;
 
@@ -42,16 +42,16 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
-  align-items: center;  
+  align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 8px 16px;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.8px;
-     -webkit-box-shadow: .1em .1em .1em grey;
-  -moz-box-shadow:  .1em .1em .1em grey;
-  box-shadow:        .1em .1em .1em grey;
+  letter-spacing: .05rem;
+     -webkit-box-shadow: .3em .3em .3em grey;
+  -moz-box-shadow:  .3em .3em .3em grey;
+  box-shadow:        .3em .3em .3em grey;
   z-index:999;
 }
 
@@ -60,20 +60,20 @@ body {
 }
 .navbar-brand {
  position: relative;
-  top:9.6px;
-  left: 12.8px;
+  top:.6rem;
+  left: .8rem;
 }
 .navbar .logo{
-  height: 73.92px;
-  width: 78.4px;
+  height: 7.4rem;
+  width: 7.9rem;
 }
 
  .navbar-nav li{
-      font-size: 16px;
+      font-size: 1.6rem;
           color: black;
           font-weight: bold;
-       padding-right: 16px;
-       padding-top: 8px;
+       padding-right: 1rem;
+       padding-top: .5rem;
        /* text-shadow: .05rem .05rem .1rem rgb(41, 46, 43); */
  }
 
@@ -96,15 +96,15 @@ body {
 
 
 .header-css .btn {
-   margin-top: 40px;
+   margin-top: 4rem;
 }
 
 
 .pri-main{
    display: block;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 6px;
+  letter-spacing: .6rem;
   /* background-image: linear-gradient(to right bottom, rgba(62, 97, 161, 0.8),rgba(23, 131, 46, 0.8)), url(home.jpg); */
   color: whitesmoke;
   /* transform: translate(25%,-50%); */
@@ -112,12 +112,12 @@ body {
 
 .pri-sub{
    display: block;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 2px black; 
+  letter-spacing: .1rem;
+  text-shadow: .1rem .1rem .2rem black; 
   color: whitesmoke;
-  padding-top:10px;
+  padding-top:1rem;
   /* transform: translate(30%,-50%); */
 }
 
@@ -128,24 +128,24 @@ body {
   height: auto;
   background-image:  linear-gradient(to right bottom, rgba(196, 198, 201, 0.8),rgba(255, 255, 255, 0.8));
   
-  padding:33vh 0px;
+  padding:33vh 0rem;
   margin-top: -13vh;
   /* transform: translate(0,124%); */
   clip-path: polygon(0% 13vh, 100% 0%, 100% 100%, 0% 100%);
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }  
 .primary-css-2 {
    /* display: block; */
-   margin-top: -130px!important;
+   margin-top: -13rem!important;
    text-align: center;
-  font-size: 47px;
-  padding-left: 30px;
+  font-size: 4.7rem;
+  padding-left: 3rem;
   font-weight: 700;
   margin-left: 10%;
   /* display: inline-block; */
   color: transparent;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
   background-image: linear-gradient(to right bottom, rgba(62, 97, 161, 0.8),rgba(23, 131, 46, 0.8));
   -webkit-background-clip: text;
   /* transform: translate(180%,-210%); */
@@ -160,26 +160,26 @@ body {
 .about .pri-main-2 {
   text-transform: uppercase;
   text-align: justify;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
-  margin: 20px;
-  letter-spacing: 2px;
+  margin: 2rem;
+  letter-spacing: .2rem;
   color: rgb(27, 22, 22);
 }
 
 .about .pri-sub-2 {
-  letter-spacing: 1px;
+  letter-spacing: .1rem;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 15px;
-  margin-left: 30px;
+  font-size: 1.5rem;
+  margin-left: 3rem;
 }
 
 .about img {
-  margin-left: 20px;
-  margin-bottom: 20px!important;
-  margin-top: 20px;
-  width: 180px;
+  margin-left: 2rem;
+  margin-bottom: 2rem!important;
+  margin-top: 2rem;
+  width: 18rem;
   height: auto;
   border: 2px white solid;
 }
@@ -189,8 +189,8 @@ body {
   position: static;
   width: 100%;
   overflow: hidden;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
 }
 
 
@@ -200,58 +200,58 @@ body {
   background-image: linear-gradient(to right bottom, rgba(122, 101, 122, 0.8),rgba(99, 172, 115, 0.8));     /*url(../img/wood.jpg) */
   background-size: cover;
   background-position:top;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 .design h1{
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 50px;
-  padding-top: 30px;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  padding-top: 3rem;
   color: #fff;
-  letter-spacing: 3px;                                                                                                                                                                                         
+  letter-spacing: .3rem;                                                                                                                                                                                         
   font-weight: 700;
-  text-shadow:  1px 1px 2px black; 
+  text-shadow:  .1rem .1rem .2rem black; 
 }
 
 .design .card-deck {
-  margin-left: 15px;
-  padding-bottom: 30px;
-  margin-right: 15px;
+  margin-left: 1.5rem;
+  padding-bottom: 3rem;
+  margin-right: 1.5rem;
 }
 
 .design .card {
   border-color: white;
   background-color: rgb(0, 0, 0,0.6);
-  padding: 5px;
+  padding: .5rem;
 }
 .design .card-body .card-title {
       color: ivory;
-      font-size: 30px;
+      font-size: 3rem;
       font-weight: 600;
-      text-shadow:  1px 1px 2px black; 
-      letter-spacing: 1px;
+      text-shadow:  .1rem .1rem .2rem black; 
+      letter-spacing: .1rem;
 }
 
 .design .card-body .card-text {
       color: ivory;
-      font-size: 15px;
-      text-shadow:  1px 1px 2px black; 
+      font-size: 1.5rem;
+      text-shadow:  .1rem .1rem .2rem black; 
 }
 
 .wcard  {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 30px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 3rem;
 
 }
 .wcard .card-title {
   
   color: ivory;
-  top: 10px;
-  font-size: 25px;
+  top: 1rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  text-shadow:  1rem 1rem 2rem black; 
-  letter-spacing: 1rem;
+  text-shadow:  .1rem .1rem .2rem black; 
+  letter-spacing: .1rem;
 }
 .wcard img{
   position: center;
@@ -261,18 +261,18 @@ body {
 
 .wcard .card-text {
   color: ivory;
-  font-size: 13px;
-  text-shadow:  1px 1px 2px black; 
+  font-size: 1.3rem;
+  text-shadow:  .1rem .1rem .2rem black; 
 }
 .wcard .ctext {
   background-color: rgba(0, 0, 0,0.4);
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: -1rem;
 }
 
 .mb-3 {
-  margin-left: 15px;
+  margin-left: 1.5rem;
   margin-right: 1.5em;
 }
 
@@ -303,15 +303,15 @@ body {
         font-family: 'Courier New', Courier, monospace;
         font-size-adjust: initial;
         letter-spacing: 2px;
-        margin: 6px -50px;
-        /* margin-top: -2px; */
+        margin: 6px -5rem;
+        /* margin-top: -2rem; */
       }
       #footer .segment-one h4{
        font-family: 'Courier New', Courier, monospace;
         color: #fff;
         font-size: 20px;
         letter-spacing: 2px;
-        margin: 6px -50px;
+        margin: 6px -5rem;
         text-align: left;
       }
       #footer .segment-one ul{
@@ -403,7 +403,7 @@ body {
          text-align: center;
          background: rgb(224, 224, 224);
          line-height: 45px;
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
        }
       
   
@@ -414,22 +414,13 @@ body {
 
 
     .mqh2{
-      font-size: 15px;
+      font-size: 1.5rem;
            }
   
   
     /*Media Queries*/
     @media  screen and (max-width: 574px) {
       .mqh2 {
-        font-size:20px;
-      }
-      .about .pri-main-2 {
-        text-transform: uppercase;
-        text-align: justify;
-        font-size: 10px;
-        font-weight: 400;
-        margin: 20px;
-        letter-spacing: 2px;
-        color: rgb(27, 22, 22);
+        font-size:1.2rem;
       }
     }
